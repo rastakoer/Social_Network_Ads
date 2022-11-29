@@ -14,7 +14,7 @@ def commande(model, age, salary):
 
 st.title("App Marketing Ads")
 age = st.slider('Age',18,60,50)
-salary = st.slider('Salaire',0,150000,75000)
+salary = st.slider('Salaire',15000,150000,75000)
 
 prediction = commande(model, age, salary)
 
